@@ -1,0 +1,98 @@
+.text-center {
+  margin-top: 50px;
+}
+
+.display-4 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.col-md-4 {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.col-md-4 h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.col-md-4 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.col-md-4 li {
+  margin-bottom: 10px;
+}
+
+.col-md-4 a {
+  text-decoration: none;
+  color: #333;
+}
+
+.col-md-4 a:hover {
+  text-decoration: underline;
+}
+
+.about-us {
+  margin-top: 50px;
+}
+
+.about-us p {
+  font-size: 1.1rem;
+}
+.search-form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.search-form h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.search-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-form label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.search-form input[type="text"] {
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.search-form select {
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.search-form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #3e8e41;
+}

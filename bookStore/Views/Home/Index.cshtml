@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Miki's BookStore Shopping</h1>
+    <p>Browse our collection of books and start shopping today!</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Featured Books</h2>
+        <ul>
+            <li><a href="#">Book 1</a></li>
+            <li><a href="#">Book 2</a></li>
+            <li><a href="#">Book 3</a></li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h2>Categories</h2>
+        <ul>
+            <li><a href="#">Fiction</a></li>
+            <li><a href="#">Non-Fiction</a></li>
+            <li><a href="#">Biography</a></li>
+            <li><a href="#">Sci-Fi</a></li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h2>About Us</h2>
+        <p>We are a team of book lovers who are passionate about sharing our love of reading with others. Our mission is to provide a wide selection of books at affordable prices, and to make the shopping experience as easy and enjoyable as possible.</p>
+    </div>
+    <div class="row">
+    <div class="col-md-6 offset-md-3">
+        <h2>Search Books</h2>
+        <form method="post" action="/books/search">
+            <div class="form-group">
+                <label for="searchTerm">Search Term</label>
+                <input type="text" class="form-control" id="searchTerm" name="searchTerm" placeholder="Enter search term">
+            </div>
+            <div class="form-group">
+                <label for="searchType">Search Type</label>
+                <select class="form-control" id="searchType" name="searchType">
+                    <option value="title">Title</option>
+                    <option value="author">Author</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+    </div>
+</div>
+</div>
+
