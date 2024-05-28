@@ -1,6 +1,32 @@
 @{
     ViewData["Title"] = "Carts";
 }
+
 <h1>@ViewData["Title"]</h1>
 
-<p>Carts.</p>
+@if (Model?.Any() != true)
+{
+  <p>Your cart is currently empty.</p>
+}
+else
+{
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th></th> </tr>
+    </thead>
+    <tbody>
+      @foreach (var cartItem in Model)
+      {
+        <tr>
+          <td>@cartItem.Product.Title</td>
+          <td>@cartItem.Quantity</td>
+          <td>@cartItem.Product.Price.ToString("C")</td>  <td></td>
+        </tr>
+      }
+    </tbody>
+  </table>
+}

@@ -28,3 +28,4 @@
 /home/collins/END/new/bookStore/obj/Debug/net8.0/bookStore.pdb
 /home/collins/END/new/bookStore/obj/Debug/net8.0/bookStore.genruntimeconfig.cache
 /home/collins/END/new/bookStore/obj/Debug/net8.0/ref/bookStore.dll
+/home/collins/END/new/bookStore/obj/Debug/net8.0/bookStore.sourcelink.json
